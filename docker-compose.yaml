@@ -1,0 +1,10 @@
+version: "3"
+services:
+
+  node:
+    build: ./.docker
+    volumes:
+      - ./:/app
+    ports:
+      - 7000:7000
+    command: node server.js
