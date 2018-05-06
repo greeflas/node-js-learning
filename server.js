@@ -5,6 +5,6 @@
 //    res.writeHead(200, {'Content-Type': 'text/plain'});
 //    res.end(`[${date.currentDate()}] This server works on Node.js!`);
 //}).listen(7000);
-require('./events');
+require('./os');
 
 console.log('Listening...');
